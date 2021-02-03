@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+html{
+    overflow:hidden;
+}
+
+ 
+
+.img_back{
+    background-image: url(https://images.alphacoders.com/283/283763.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    height: 100vh;
+    width: 100%;
+    position: absolute; 
+    top:0 ;
+    opacity: 1;
+    transition:5s;
+    z-index: 5;
+}
+
+/* POP UP */
+
+#popup {
+    position: absolute;
+    height: 75vh;
+    width: 35%;
+    /* background-color: rgb(11, 63, 64); */
+    background: linear-gradient(120deg, rgb(6, 6, 25), rgb(123, 119, 119));
+    position: fixed;
+    display: none; 
+    top: 90px;
+    right: 0px;
+    left: 0;
+    margin: auto;
+    border-radius: 20px;
+    z-index: 5;
+}
+
+#close {
+    height: 30px;
+    width: auto;
+    position: relative;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.img_croix{
+    height: 35px;
+    width: auto;
+}
+
+.title1_modal{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.title2_modal{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.popup_1{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Quicksand;
+    color: rgb(216, 55, 40);
+    text-align: center;
+    top: 103px;
+    left: 275px;
+    display: block;
+}
+
+.one_popup{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Quicksand;
+    color: rgb(216, 55, 40);
+    text-align: center;
+    top: 103px;
+    left: 275px;
+    display: none;
+}
+
+.ul_header{
+    list-style: none;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: Quicksand;
+    margin-left: 125px;
+}
+
+.li_header_lien{
+    color: white;
+    text-decoration: none;   
+}
+
+.li_header_lien:hover{
+    color: rgb(213, 64, 5);
+    font-weight: bold;
+}
+
+.text_modal{
+    width: 60%;
+    font-size: 15px;
+    color: white;
+    font-family: Quicksand;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.smiley_popup{
+    position: absolute;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 2px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.btn_start{
+    padding: 10px 20px 10px 20px;
+    background-color: red;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 60px;
+}
+
+

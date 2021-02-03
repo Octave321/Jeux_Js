@@ -1,0 +1,777 @@
+body{
+    margin: 0;
+}
+
+
+/* COMPTE A REBOURS */
+
+.title{
+    font-size: 15px;
+    color: white;
+}
+
+#timer{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.rebours{
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    line-height: 0;  
+    left: 570px;  
+}
+
+.title{
+    color: white;
+    text-align: center;
+}
+
+.timer{
+    color: white;
+}
+
+/* POP UP */
+
+#popup {
+    position: absolute;
+    height: 75vh;
+    width: 35%;
+    background-color: rgb(11, 63, 64);
+    position: fixed;
+    display: none; 
+    top: 90px;
+    right: 0px;
+    left: 0;
+    margin: auto;
+    border-radius: 20px;
+    z-index: 7;
+}
+
+
+
+.title_modal{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ul_header{
+    list-style: none;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Quicksand;
+    margin-left: 125px;
+}
+
+.li_header_lien{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.text_modal{
+    width: 60%;
+    font-size: 15px;
+    color: white;
+    font-family: Quicksand;
+    text-align: center;
+    margin: auto;
+    padding-top: 0px;
+    line-height: 35px;
+}
+ 
+
+
+.ul_difficulte{
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.li_difficulte{
+    color: red;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.li_difficulte:hover{
+    color: rgb(165, 10, 10);
+}
+
+
+
+/* POPUP2 */
+
+#popup2 {
+    position: absolute;
+    height: 70vh;
+    width: 35%;
+    background-color: rgb(11, 63, 64);
+    position: fixed;
+    display: none; 
+    top: 90px;
+    right: 0px;
+    left: 0;
+    margin: auto;
+    border-radius: 20px;
+    z-index: 7;
+}
+
+
+
+
+.title_modal{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ul_header{
+    list-style: none;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Quicksand;
+    margin-left: 125px;
+}
+
+.li_header_lien{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.text_modal2{
+    width: 60%;
+    font-size: 20px;
+    font-family: Quicksand;
+    
+    margin-left: 80px;
+    margin-top: 50px;
+    line-height: 35px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.text_modal2:hover{
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(228, 106, 25);
+}
+
+
+/* POPUP3 */
+
+
+#popup3 {
+    position: absolute;
+    height: 70vh;
+    width: 35%;
+    background-color: rgb(11, 63, 64);
+    position: fixed;
+    display: none; 
+    top: 90px;
+    right: 0px;
+    left: 0;
+    margin: auto;
+    border-radius: 20px;
+    z-index: 7;
+}
+
+
+.title_modal{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ul_header{
+    list-style: none;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Quicksand;
+    margin-left: 125px;
+}
+
+.li_header_lien{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.text_modal3{
+    width: 60%;
+    font-size: 20px;
+    font-family: Quicksand;
+    
+    margin-left: 80px;
+    margin-top: 50px;
+    line-height: 35px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.text_modal3:hover{
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(228, 106, 25);
+}
+
+
+
+/* CONTAINER */
+
+
+
+.container{
+    position: absolute;
+    height: 90.2%;
+    width: 100%;
+}
+
+.img_back{
+    position: absolute;
+    height: 110.7%;
+    width: 100%;
+    z-index: 0;
+}
+
+.img_map{
+    position: absolute;
+    z-index: 3;
+}
+
+.img_char1{
+    height: 35px;
+    top: 170px;
+    left: 50px;
+}
+
+.img_char2{
+    height: 50px;
+    top: 200px;
+    left: 550px;
+}
+
+.img_char3{
+    height: 30px;
+    top: 250px;
+    left: 650px;
+}
+
+.img_char4{
+    height: 40px;
+    top: 270px;
+    left: 750px;
+}
+
+.img_militaire1{
+    height: 40px;
+    top: 270px;
+    left: 50px;
+}
+
+.img_militaire2{
+    height: 40px;
+    top: 290px;
+    left: 150px;
+}
+
+.img_militaire3{
+    height: 40px;
+    top: 320px;
+    left: 70px;
+}
+
+.img_militaire4{
+    height: 40px;
+    top: 220px;
+    left: 60px;
+}
+
+.img_militaire5{
+    height: 40px;
+    top: 230px;
+    left: 30px;
+}
+
+.img_militaire6{
+    height: 40px;
+    top: 350px;
+    left: 100px;
+}
+
+.img_militaire7{
+    height: 40px;
+    top: 250px;
+    left: 110px;
+}
+
+.img_militaire8{
+    height: 20px;
+    top: 260px;
+    left: 550px;
+}
+
+.img_militaire9{
+    height: 20px;
+    top: 230px;
+    left: 530px;
+}
+
+.img_militaire10{
+    height: 20px;
+    top: 210px;
+    left: 530px;
+}
+
+.img_militaire11{
+    height: 20px;
+    top: 270px;
+    left: 500px;
+}
+
+.img_militaire12{
+    height: 20px;
+    top: 250px;
+    left: 520px;
+}
+
+.img_militaire13{
+    height: 20px;
+    top: 290px;
+    left: 590px;
+}
+
+.img_militaire14{
+    height: 20px;
+    top: 280px;
+    left: 510px;
+}
+
+.img_militaire15{
+    height: 20px;
+    top: 290px;
+    left: 500px;
+}
+
+.img_militaire16{
+    height: 20px;
+    top: 290px;
+    left: 550px;
+}
+
+.img_militaire17{
+    height: 20px;
+    top: 220px;
+    left: 500px;
+}
+
+.img_avion1{
+    height: 20px;
+    top: 30px;
+    left: 70px;
+}
+
+.img_avion5{
+    height: 25px;
+    top: 30px;
+    left: 270px;
+    cursor: pointer;
+}
+
+.img_avion6{
+    height: 30px;
+    top: 60px;
+    left: 650px;
+}
+
+.img_avion10{
+    height: 220px;
+    top: 70px;
+    left: 900px;
+}
+
+.img_avion2{
+    height: 40px;
+    top: 90px;
+    left: 200px;
+}
+
+.img_avion3{
+    height: 30px;
+    top: 50px;
+    left: 360px;
+}
+
+.img_avion4{
+    height: 30px;
+    top: 50px;
+    left: 550px;
+    cursor: pointer;
+}
+
+.img_avion7{
+    height: 30px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.img_avion8{
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 900px;
+}
+
+.img_avion9{
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 970px;
+}
+
+.img_lance_missile1{
+    height: 60px;
+    margin-top: 400px;
+    margin-left: 50px;
+}
+
+.img_lance_missile2{
+    height: 60px;
+    margin-top: 460px;
+    margin-left: 50px;
+}
+
+.img_missile1{
+    height: 15px;
+    margin-top: 150px;
+    margin-left: 230px;
+}
+
+.img_missile2{
+    height: 10px;
+    margin-top: 90px;
+    margin-left: 375px;
+}
+
+.img_missile3{
+    height: 10px;
+    margin-top: 100px;
+    margin-left: 555px;
+}
+
+.img_missile4{
+    height: 13px;
+    margin-top: 130px;
+    margin-left: 230px;
+}
+
+.img_grenade1{
+    height: 10px;
+    margin-top: 250px;
+    margin-left: 490px;
+    cursor: pointer;
+}
+
+.img_grenade2{
+    height: 10px;
+    margin-top: 330px;
+    margin-left: 500px;
+}
+
+.img_grenade3{
+    height: 10px;
+    margin-top: 320px;
+    margin-left: 350px;
+}
+
+.img_grenade4{
+    height: 10px;
+    margin-top: 310px;
+    margin-left: 250px;
+}
+
+.img_grenade5{
+    height: 10px;
+    margin-top: 260px;
+    margin-left: 270px;
+}
+
+.img_grenade6{
+    height: 10px;
+    margin-top: 260px;
+    margin-left: 190px;
+}
+
+
+.img_grenade7{
+    height: 10px;
+    margin-top: 260px;
+    margin-left: 90px;
+}
+
+.img_grenade8{
+    height: 10px;
+    margin-top: 260px;
+    margin-left: 190px;
+}
+
+.img_grenade9{
+    height: 10px;
+    margin-top: 290px;
+    margin-left: 410px;
+}
+
+.img_grenade10{
+    height: 10px;
+    margin-top: 280px;
+    margin-left: 320px;
+}
+
+.img_grenade11{
+    height: 10px;
+    margin-top: 250px;
+    margin-left: 370px;
+}
+
+.img_grenade12{
+    height: 10px;
+    top: 220px;
+    left: 430px;
+}
+
+
+.img_grenade13{
+    height: 10px;
+    top: 260px;   
+    left: 90px;
+    cursor: pointer;
+}
+
+.img_explosion01{
+    height: 60px;
+    top: 212px;
+    left: 60px;
+    display:none;
+}
+
+.img_explosion02{
+    height: 60px;
+    top: 215px;
+    left: 467px;
+    display: none;
+}
+
+.img_explosion1{
+    height: 30px;
+    top: 150px;
+    left: 500px;
+}
+
+.img_explosion2{
+    height: 60px;
+    top: 170px;
+    left: 190px;
+}
+
+.img_explosion3{
+    height: 70px;
+    top: 250px;
+    left: 600px;
+}
+
+.img_explosion4{
+    height: 75px;
+   top: 310px;
+   left: 190px;
+}
+
+.img_explosion5{
+    height: 20px;
+    top: 110px;
+    left: 300px;
+}
+
+.img_explosion03{
+    height: 50px;
+    top: 25px;
+    left: 270px;
+    display: none;
+}
+
+.img_explosion04{
+    height: 50px;
+    top: 47px;
+    left: 550px;
+    display: none;
+}
+
+.img_explosion6{
+    height: 15px;
+    top: 120px;
+    left: 390px;
+}
+
+.img_explosion7{
+    height: 20px;
+    top: 115px;
+    left: 500px;
+}
+
+.img_explosion8{
+    height: 17px;
+    top: 110px;
+    left: 550px;
+}
+
+.img_explosion9{
+    height: 25px;
+    top: 120px;
+    left: 600px;
+}
+
+.img_arbre1{
+    height: 70px;
+    top: 350px;
+    left: 500px;
+}
+
+.img_arbre2{
+    height: 60px;
+    top: 330px;
+    left: 530px;
+}
+
+.img_arbre3{
+    height: 65px;
+    top: 340px;
+    left: 560px;
+}
+
+.img_arbre4{
+    height: 80px;
+    top: 350px;
+    left: 590px;
+}
+
+.img_arbre5{
+    height: 65px;
+    top: 390px;
+    left: 620px;
+}
+
+.img_arbre6{
+    height: 60px;
+    top: 370px;
+    left: 650px;
+}
+
+.img_arbre7{
+    height: 65px;
+    top: 360px;
+    left: 690px;
+}
+
+.img_arbre8{
+    height: 60px;
+    top: 370px;
+    left: 730px;
+}
+
+.img_arbre9{
+    height: 65px;
+    top: 330px;
+    left: 760px;
+}
+
+.img_arbre10{
+    height: 65px;
+    top: 350px;
+    left: 800px;
+}
+
+.img_arbre11{
+    height: 60px;
+    top: 330px;
+    left: 950px;
+}
+
+.img_arbre12{
+    height: 60px;
+    top: 350px;
+    left: 800px;
+}
+
+.img_arbre13{
+    height: 60px;
+    top: 370px;
+    left: 930px;
+}
+
+.img_arbre14{
+    height: 65px;
+    top: 370px;
+    left: 860px;
+}
+
+.img_arbre15{
+    height: 65px;
+    top: 330px;
+    left: 890px;
+}
+
+.img_arbre16{
+    height: 65px;
+    top: 290px;
+    left: 930px;
+}
+
+.img_arbre17{
+    height: 65px;
+    top: 300px;
+    left: 810px;
+}
+
+.img_arbre18{
+    height: 65px;
+    top: 310px;
+    left: 850px;
+}
+
+.img_arbre19{
+    height: 65px;
+    top: 320px;
+    left: 700px;
+}
+
+.img_arbre20{
+    height: 65px;
+    top: 320px;
+    left: 620px;
+}
+
+.img_arbre21{
+    height: 65px;
+    top: 375px;
+    left: 530px;
+}
+
+.img_mikey{
+    height: 10px;
+    z-index: 6;
+}
+
+

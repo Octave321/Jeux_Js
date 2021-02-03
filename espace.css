@@ -1,0 +1,590 @@
+body{
+    margin: 0;
+}
+
+
+/* COMPTE A REBOURS */
+
+.title{
+    font-size: 15px;
+    color: white;
+}
+
+#timer{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.rebours{
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    line-height: 0;  
+    left: 570px;  
+}
+
+.title{
+    color: white;
+    text-align: center;
+}
+
+.timer{
+    color: white;
+}
+
+/* POP UP */
+ 
+#popup {
+    position: absolute;
+    height: 70vh;
+    width: 35%;
+    background-color: rgb(11, 63, 64);
+    position: fixed;
+    display: none; 
+    top: 90px;
+    right: 0px;
+    left: 0;
+    margin: auto;
+    border-radius: 20px;
+    z-index: 7;
+}
+
+.title_modal{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ul_header{
+    list-style: none;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Quicksand;
+    margin-left: 125px;
+}
+
+.li_header_lien{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.text_modal{
+    width: 60%;
+    font-size: 15px;
+    color: white;
+    font-family: Quicksand;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    line-height: 35px;
+}
+
+.ul_difficulte{
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.li_difficulte{
+    color: red;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.li_difficulte:hover{
+    color: rgb(165, 10, 10);
+}
+
+
+
+
+/* POPUP2 */
+
+#popup2 {
+    position: absolute;
+    height: 70vh;
+    width: 35%;
+    background-color: rgb(11, 63, 64);
+    position: fixed;
+    display: none; 
+    top: 90px;
+    right: 0px;
+    left: 0;
+    margin: auto;
+    border-radius: 20px;
+    z-index: 7;
+}
+
+
+
+
+.title_modal{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ul_header{
+    list-style: none;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Quicksand;
+    margin-left: 125px;
+}
+
+.li_header_lien{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.text_modal2{
+    width: 60%;
+    font-size: 20px;
+    font-family: Quicksand;
+    
+    margin-left: 80px;
+    margin-top: 50px;
+    line-height: 35px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.text_modal2:hover{
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(228, 106, 25);
+}
+
+
+/* POPUP3 */
+
+
+#popup3 {
+    position: absolute;
+    height: 70vh;
+    width: 35%;
+    background-color: rgb(11, 63, 64);
+    position: fixed;
+    display: none; 
+    top: 90px;
+    right: 0px;
+    left: 0;
+    margin: auto;
+    border-radius: 20px;
+    z-index: 7;
+}
+
+
+.title_modal{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Quicksand;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ul_header{
+    list-style: none;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Quicksand;
+    margin-left: 125px;
+}
+
+.li_header_lien{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.text_modal3{
+    width: 60%;
+    font-size: 20px;
+    font-family: Quicksand;
+    
+    margin-left: 80px;
+    margin-top: 50px;
+    line-height: 35px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.text_modal3:hover{
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(228, 106, 25);
+}
+
+
+
+/* CONTAINER */
+
+
+.container{
+    position: absolute;
+    height: 90.2%;
+    width: 100%;
+}
+
+.img_back{
+    position: absolute;
+    height: 110.7%;
+    width: 100%;
+    z-index: 0;
+}
+
+.img_map{
+    position: absolute;
+    z-index: 5;
+}
+
+
+.iron_man1{
+    height: 40px;
+    left: 770px;
+    top: 150px;
+}
+
+.iron_man2{
+    height: 60px;
+    left: 960px;
+    top: 360px;
+    transform: rotateY(-170deg);
+}
+
+.iron_man_black{
+    height: 230px;
+    left: 1050px;
+    top: 10px;
+}
+
+.iron_man_gold{
+    height: 50px;
+    left: 950px;
+    top: 100px;
+}
+
+.captain_america{
+    height: 40px;
+    left: 830px;
+    top: 215px;
+}
+
+.vaisseau_gauche1{
+    height: 100px;
+    left: 100px;
+    top: 100px;
+    transform: rotateY(-170deg);
+}
+
+.vaisseau_gauche2{
+    height: 80px;
+    left: 270px;
+    top: 300px;
+    transform: rotateY(-170deg);
+}
+
+.vaisseau_gauche3{
+    height: 70px;
+    left: 100px;
+    top: 350px;
+    transform: rotateY(-170deg);
+}
+
+.vaisseau_gauche4{
+    height: 100px;
+    left: 300px;
+    top: 200px;
+}
+
+.vaisseau_gauche5{
+    height: 90px;
+    left:150px;
+    top: 450px;
+    
+}
+
+
+
+.vaisseau_droite1{
+    height: 120px;
+    left:600px;
+    top: 50px;
+    z-index: 0;
+}
+
+
+.vaisseau_droite2{
+    height: 120px;
+    left:750px;
+    top: 200px;
+    z-index: 0;
+}
+
+
+.vaisseau_droite3{
+    height: 120px;
+    left:950px;
+    top: 450px;
+}
+
+
+.thor{
+    height: 60px;
+    left: 700px;
+    top: 200px;
+    transform: rotateY(-170deg);
+}
+
+.black_panther{
+    height: 30px;
+    left: 660px;
+    top: 75px;
+}
+
+.superman{
+    height: 150px;
+    left: 760px;
+    top: 350px;
+}
+
+.batman{
+    height: 50px;
+    left: 790px;
+    top: 220px;
+    transform: rotateY(-170deg);
+}
+
+.hulk{
+    height: 60px;
+    left: 530px;
+    top: 70px;
+}
+
+.captain_marvel{
+    height: 70px;
+    left: 850px;
+    top: 310px;
+    transform: rotateY(-170deg);
+}
+
+.spiderman{
+    height: 35px;
+    left: 730px;
+    top: 270px;
+}
+
+
+.thanos{
+    height: 70px;
+    left:290px;
+    top: 60px;
+}
+
+.alienne1{
+    height: 60px;
+    left:420px;
+    top: 270px;
+}
+
+.alienne2{
+    height: 60px;
+    left:230px;
+    top: 320px;
+}
+
+.alienne3{
+    height: 50px;
+    left:260px;
+    top: 70px;
+}
+
+.alienne4{
+    height: 60px;
+    left:190px;
+    top: 70px;
+}
+
+.alienne5{
+    height: 60px;
+    left:160px;
+    top: 80px;
+}
+
+.dragon1{
+    height: 90px;
+    left:370px;
+    top: 90px;
+    transform: rotateY(-170deg);
+}
+
+.dragon2{
+    height: 70px;
+    left:430px;
+    top: 200px;
+    transform: rotateY(-170deg);
+}
+
+.dragon3{
+    height: 90px;
+    left:560px;
+    top: 300px;
+    transform: rotateY(-170deg);
+}
+
+.dragon4{
+    height: 60px;
+    left:270px;
+    top: 270px;
+}
+
+
+.dragon5{
+    height: 50px;
+    left:290px;
+    top: 390px;
+}
+
+
+.dragon6{
+    height: 50px;
+    left:40px;
+    top: 70px;
+}
+
+.dragon7{
+    height: 60px;
+    left: 110px;
+    top: 10px;
+}
+
+.dragon8{
+    height: 60px;
+    left: 260px;
+    top: 20px;
+}
+
+
+.monstre1{
+    height: 40px;
+    left:220px;
+    top: 90px;
+}
+
+.monstre2{
+    height: 30px;
+    left:400px;
+    top: 290px;
+}
+
+.monstre3{
+    height: 30px;
+    left:360px;
+    top:300px;
+}
+
+.monstre4{
+    height: 30px;
+    left:220px;
+    top: 340px;
+}
+
+.monstre5{
+    height: 30px;
+    left:170px;
+    top: 350px;
+}
+
+.planete_terre{
+    height: 50px;
+    left:570px;
+    top: 500px;
+}
+
+.planete_mars{
+    height: 40px;
+    left:330px;
+    top: 460px;
+}
+
+.saturne{
+    height: 30px;
+    left:130px;
+    top: 395px;
+    z-index: 0;
+}
+
+.pluton{
+    height: 25px;
+    left:50px;
+    top: 295px;
+    z-index: 0;
+}
+
+.neptune{
+    height: 20px;
+    left:10px;
+    top: 130px;
+    z-index: 0;
+}
+
+
+.trou_noire1{
+    height: 100px;
+    left: 10px;
+    top: 50px;
+    transform: rotateY(30deg);
+    z-index: 0;
+}
+
+.trou_noire2{
+    height: 150px;
+    left: 70px;
+    top: 200px;
+    transform: rotateY(30deg);
+    z-index: 0;
+}
+
+.trou_noire3{
+    height: 100px;
+    left: 10px;
+    top: 390px;
+    transform: rotateY(30deg);
+    z-index: 0;
+}
+
+.trou_noire4{
+    height: 100px;
+    left: 990px;
+    top: 10px;
+    transform: rotateY(-150deg);
+    z-index: 0;
+}
+
+.trou_noire5{
+    height: 170px;
+    left: 1100px;
+    top:270px;
+    transform: rotateY(-150deg);
+    z-index: 0;
+}
+
+
+
+.img_mikey{
+    height: 10px;
+    z-index: 0;
+}

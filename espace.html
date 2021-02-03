@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link rel="stylesheet" href="espace.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="espace.js"></script> 
+    <title>Map Espace</title>
+</head>
+
+<body>
+
+    <div class="rebours">
+        <p class="title">Temps restant:</p>
+    <div id="timer"></div>
+    </div>
+    
+
+
+    <div id="popup">
+        <p class="title_modal">Consigne:</p>
+        <p class="text_modal">Choisis ton niveau de difficulté, plus le niveau est élevé, plus Mikey changera de place rapidement!!! <br>Tu as 60 secondes pour trouver Mikey dans cette map!<br> Bonne chance</p>
+        <ul class="ul_difficulte">
+            <li class="li_difficulte easy"><a class="li_difficulte" href="#">Easy</a></li>
+            <li class="li_difficulte medium"><a class="li_difficulte" href="#">Medium</a></li>
+            <li class="li_difficulte hard"><a class="li_difficulte" href="#">Hard</a></li>
+          </ul>
+      </div>
+    
+      
+       <div id="popup2">
+          <p class="title_modal">Project One</p>
+          <p class="text_modal">Votre partie est terminée!</p>
+          <ul>
+            <li class="text_modal2"><a class="text_modal2" href="accueil.html">Menu</a> </li>
+            <li class="text_modal2"><a class="text_modal2" href="espace.html">Restart</a></li>
+          </ul>          
+      </div>
+
+      <div id="popup3">
+        <p class="title_modal">Project One</p>
+        <p class="text_modal">Le temps est écoulé!<br> La partie est finie</p>
+        <ul>
+          <li class="text_modal3"><a class="text_modal3" href="accueil.html">Menu</a> </li>
+          <li class="text_modal3"><a class="text_modal3" href="espace.html">Restart</a></li>
+        </ul>          
+    </div>
+
+
+
+<div class=" container"> 
+    <img class="img_back" src="img/img_back">
+
+    <img class="img_map iron_man1" src="img/iron_man1">
+    <img class="img_map iron_man2" src="img/iron_man2">
+    <img class="img_map iron_man_black" src="img/iron_man_black">
+    <img class="img_map iron_man_gold" src="img/iron_man_gold">
+    <img class="img_map captain_america" src="img/captain_america">
+    <img class="img_map vaisseau_gauche1" src="img/vaisseau_gauche">
+    <img class="img_map vaisseau_gauche2" src="img/vaisseau_gauche">
+    <img class="img_map vaisseau_gauche3" src="img/vaisseau_gauche">
+    <img class="img_map vaisseau_gauche4" src="img/vaisseau">
+    <img class="img_map vaisseau_gauche5" src="img/vaisseau">
+    <img class="img_map vaisseau_droite1" src="img/vaisseau_droite">
+    <img class="img_map vaisseau_droite2" src="img/vaisseau_droite">
+    <img class="img_map vaisseau_droite3" src="img/vaisseau_droite">
+    
+  
+    
+    <img class="img_map thor" src="img/thor">
+    <img class="img_map black_panther" src="img/black_panther">
+    <img class="img_map superman" src="img/superman">
+    <img class="img_map batman" src="img/batman">
+    <img class="img_map hulk" src="img/hulk">
+    <img class="img_map captain_marvel" src="img/captain_marvel">
+    <img class="img_map spiderman" src="img/spiderman">
+    <img class="img_map thanos" src="img/thanos">
+    <img class="img_map alienne1" src="img/alienne">
+    <img class="img_map alienne2" src="img/alienne">
+    <img class="img_map alienne3" src="img/alienne">
+    <img class="img_map alienne4" src="img/alienne">
+    <img class="img_map alienne5" src="img/alienne">
+    <img class="img_map dragon1" src="img/dragon2">
+    <img class="img_map dragon2" src="img/dragon2">
+    <img class="img_map dragon3" src="img/dragon2">
+    <img class="img_map dragon4" src="img/dragon">
+    <img class="img_map dragon5" src="img/dragon1">
+    <img class="img_map dragon6" src="img/dragon">
+    <img class="img_map dragon7" src="img/dragon">
+    <img class="img_map dragon8" src="img/dragon">
+    <img class="img_map dragon9" src="">
+    <img class="img_map dragon10" src="">
+    <img class="img_map monstre1" src="img/monstre">
+    <img class="img_map monstre2" src="img/monstre">
+    <img class="img_map monstre3" src="img/monstre">
+    <img class="img_map monstre4" src="img/monstre">
+    <img class="img_map monstre5" src="img/monstre">
+    <img class="img_map planete_terre" src="img/terre">
+    <img class="img_map planete_mars" src="img/mars">
+    <img class="img_map saturne" src="img/saturne.png">
+    <img class="img_map pluton" src="img/pluton">
+    <img class="img_map neptune" src="img/neptune">
+    <img class="img_map " src="">
+    <img class="img_map " src="">
+
+    <img class="img_map trou_noire1" src="img/trou_noire">
+    <img class="img_map trou_noire2" src="img/trou_noire">
+    <img class="img_map trou_noire3" src="img/trou_noire">
+    <img class="img_map trou_noire4" src="img/trou_noire">
+    <img class="img_map trou_noire5" src="img/trou_noire">
+
+    <img class="img_map img_mikey" src="img/mikey">
+
+</div>
+   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+    setTimeout(
+    function(){
+        $("#fond,#popup").css({"display":"block"}); // on affiche les div
+        $("#fond,#close").click(function(){
+        $("#fond,#popup").css({"display":"none"}); // si l'utilisateur clique sur le fond opaque ou le bouton, on ferme le tout
+        });
+
+        }, 1000 );
+
+
+</script>
+    
+</body>
+</html>
